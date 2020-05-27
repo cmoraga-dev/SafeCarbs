@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".main.accounts.ExplanationAccounts">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/explanation_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sobre esta función"
+            android:padding="10dp"
+            android:paddingBottom="20dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+        <TextView
+            android:id="@+id/explanation_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Esta pantalla no es parte de la app, solo se agregó para testear en forma más fácil. Aquí se pueden ver todas las cuentas que se van creando :) \nNota: las cuentas solo se guardan en la memoria de cada teléfono."
+
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/okbutton_explanation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="72dp"
+            android:onClick="goAccounts"
+
+            android:text="Entendido" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

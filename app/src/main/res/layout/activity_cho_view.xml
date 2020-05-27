@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EAEAEA"
+    tools:context=".main.choView.ChoViewActivity">
+
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="293dp"
+        android:layout_height="155dp"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="59dp"
+        android:layout_marginBottom="16dp"
+        android:text="Los carbohidratos también llamados hidratos de carbono son los azúcares, que se encuentran en una gran variedad de alimentos como frutas, cereales, verduras y productos lácteos. Los carbohidratos son uno de los grupos alimenticios básicos y son importantes para llevar una vida saludable, es una sustancia principal que usa el cuerpo humano para obtener energía o calorías."
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/BtnOk"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/explanationText" />
+
+    <TextView
+        android:id="@+id/explanationText"
+        android:layout_width="292dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="131dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="16dp"
+        android:text="Explicación de Carbohidratos:"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/titleText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/BtnOk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="14dp"
+        android:backgroundTint="#00000000"
+        android:onClick="okBtn"
+        android:text="Entendido"
+        app:layout_constraintBottom_toTopOf="@+id/checkBoxNotShow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleText" />
+
+    <CheckBox
+        android:id="@+id/checkBoxNotShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="124dp"
+        android:layout_marginBottom="218dp"
+        android:onClick="onCheckboxClicked"
+        android:text="No mostrar de nuevo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BtnOk"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

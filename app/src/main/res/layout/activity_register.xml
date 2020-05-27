@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".main.register.RegisterActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/register_title"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/name_hint"
+
+                android:orientation="vertical">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/nameET"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                    android:inputType="textPersonName"
+                    android:maxLength="10"
+                    android:shadowColor="#000000"
+                    android:tag="nombre"
+                    android:singleLine="true" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputSurname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/surname_hint"
+                android:orientation="vertical">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/SurnameET"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                    android:inputType="textPersonName"
+                    android:tag="apellido"
+                    android:maxLength="10"
+                    android:singleLine="true" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputDateBorn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/dateborn_hint"
+             >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/DateET"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:focusable="false"
+                    android:inputType="datetime" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:id="@+id/textInputGender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/gender_hint"
+                android:textColor="#919191"
+                android:textSize="18sp"
+                android:paddingTop="5sp"
+                android:focusable="true">
+
+
+            </TextView>
+            <androidx.appcompat.widget.AppCompatSpinner
+                android:id="@+id/GenderSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:tag="género"
+                android:focusable="true" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputHeight"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/Heigh_hint"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/heightET"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal"
+                    android:tag="estatura"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputWeight"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/weight_hint"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/weightET"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:tag="peso"
+                    android:inputType="number" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputPass"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/password_hint"
+                android:orientation="vertical"
+                app:passwordToggleEnabled="true"
+                app:counterEnabled="true"
+                app:counterMaxLength = "10">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/PassET"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLength="20"
+                    android:singleLine="true"
+                    android:tag="contraseña"
+/>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/textInputPassConfirm"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="@string/password_confirm_hint"
+                    android:orientation="vertical"
+                    app:counterEnabled="true"
+                    app:counterMaxLength = "10"
+                    app:passwordToggleEnabled="true"
+                    >
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/PassConfirm"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:maxLength="10"
+                        android:tag="contraseña"
+                        android:singleLine="true" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputMail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/mail_hint"
+                android:orientation="vertical"
+                >
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/MailET"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textEmailAddress"
+                    android:maxLength="50"
+                    android:singleLine="true"
+                    android:tag="correo"
+                    android:paddingBottom="25dp"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="insert"
+                android:textAlignment="center"
+                android:paddingTop="20dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColorHighlight="#3F51B5"
+                android:backgroundTint="#00000000"
+                android:text="Crear cuenta" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

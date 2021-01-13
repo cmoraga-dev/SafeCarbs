@@ -30,15 +30,15 @@ Made with Android Studio and tested on Android 10.
 
 By **cmoraga-dev**
 
-![alt text](https://github.com/cmoraga-dev/SafeCarbs/blob/master/public/login.png?raw=true)
 
-![alt text](https://github.com/cmoraga-dev/SafeCarbs/blob/master/public/register.png?raw=true)
+<img src="https://github.com/cmoraga-dev/SafeCarbs/blob/master/public/login.png" width="100" height="100">
 
-![alt text](https://github.com/cmoraga-dev/SafeCarbs/blob/master/public/calendar.png?raw=true)
+<img src="https://github.com/cmoraga-dev/SafeCarbs/blob/master/public/register.png" width="100" height="100">
 
-![alt text](https://github.com/cmoraga-dev/SafeCarbs/blob/master/public/foods.png?raw=true)
+<img src="https://github.com/cmoraga-dev/SafeCarbs/blob/master/public/calendar.png" width="100" height="100">
 
-![alt text](https://github.com/cmoraga-dev/SafeCarbs/blob/master/public/food_detail.png?raw=true)
+<img src="https://github.com/cmoraga-dev/SafeCarbs/blob/master/public/foods.png" width="100" height="100">
 
-![alt text](https://github.com/cmoraga-dev/SafeCarbs/blob/master/public/contact.png?raw=true)
+<img src="https://github.com/cmoraga-dev/SafeCarbs/blob/master/public/food_detail.png" width="100" height="100">
 
+<img src="https://github.com/cmoraga-dev/SafeCarbs/blob/master/public/contact.png" width="100" height="100">

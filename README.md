@@ -31,14 +31,14 @@ Made with Android Studio and tested on Android 10.
 By **cmoraga-dev**
 
 
-<img src="https://github.com/cmoraga-dev/SafeCarbs/blob/master/public/login.png" width="300" height="300">
+<img src="https://github.com/cmoraga-dev/SafeCarbs/blob/master/public/login.png" width="300" height="500">
 
-<img src="https://github.com/cmoraga-dev/SafeCarbs/blob/master/public/register.png" width="300" height="300">
+<img src="https://github.com/cmoraga-dev/SafeCarbs/blob/master/public/register.png" width="300" height="500">
 
-<img src="https://github.com/cmoraga-dev/SafeCarbs/blob/master/public/calendar.png" width="300" height="300">
+<img src="https://github.com/cmoraga-dev/SafeCarbs/blob/master/public/calendar.png" width="300" height="500">
 
-<img src="https://github.com/cmoraga-dev/SafeCarbs/blob/master/public/foods.png" width="300" height="300">
+<img src="https://github.com/cmoraga-dev/SafeCarbs/blob/master/public/foods.png" width="300" height="500">
 
-<img src="https://github.com/cmoraga-dev/SafeCarbs/blob/master/public/food_detail.png" width="300" height="300">
+<img src="https://github.com/cmoraga-dev/SafeCarbs/blob/master/public/food_detail.png" width="300" height="500">
 
-<img src="https://github.com/cmoraga-dev/SafeCarbs/blob/master/public/contact.png" width="300" height="300">
+<img src="https://github.com/cmoraga-dev/SafeCarbs/blob/master/public/contact.png" width="300" height="500">

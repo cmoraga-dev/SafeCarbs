@@ -2,6 +2,7 @@
 
 **ES**
 
+
 Aplicación básica, hecha para un proyecto universitario de estudiantes de nutrición.
 Sus principales componentes son un formulario de registro, un buscador de alimentos con su información nutricional,
 y una página para contactar vía correo a un profesional.

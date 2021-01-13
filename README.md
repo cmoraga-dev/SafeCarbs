@@ -22,7 +22,7 @@ This is a basic application, made for a university project of nutrition students
 Its main activities are a registration form, a food search engine with autocomplete feature,
 and a page to contact a professional by mail.
 To store the food information, a SQLite database was used.
-The ** SpecialFilter ** class was programmed for the autocomplete list to be ordered alphabetically, since by default the Filter class does not contain this feature.
+The **SpecialFilter** class was programmed for the autocomplete list to be ordered alphabetically, since by default the Filter class does not contain this feature.
 
 The application is only a prototype, so it lacks of proper design. The goal was to show the student's idea in a working in an android app.
 
